@@ -17,6 +17,9 @@ importers:
       leaflet-draw:
         specifier: ^1.0.4
         version: 1.0.4
+      terra-draw:
+        specifier: 1.0.0-beta.8
+        version: 1.0.0-beta.8
     devDependencies:
       '@types/leaflet':
         specifier: ^1.9.14
@@ -724,6 +727,9 @@ packages:
 
   sweepline-intersections@1.5.0:
     resolution: {integrity: sha512-AoVmx72QHpKtItPu72TzFL+kcYjd67BPLDoR0LarIk+xyaRg+pDTMFXndIEvZf9xEKnJv6JdhgRMnocoG0D3AQ==}
+
+  terra-draw@1.0.0-beta.8:
+    resolution: {integrity: sha512-40kOjgOQkDDmRIkz7QZ4urjwb9v/+Zm7tPf3RqeDY4UtKm3JodZ5iz3fFm93u3nzd+QVQlOZF0VF15ew0esQ7A==}
 
   tinyqueue@2.0.3:
     resolution: {integrity: sha512-ppJZNDuKGgxzkHihX8v9v9G5f+18gzaTfrukGrq6ueg0lmH4nqVnA2IPG0AEH3jKEk2GRJCUhDoqpoiw3PHLBA==}
@@ -2148,6 +2154,8 @@ snapshots:
   sweepline-intersections@1.5.0:
     dependencies:
       tinyqueue: 2.0.3
+
+  terra-draw@1.0.0-beta.8: {}
 
   tinyqueue@2.0.3: {}
 
